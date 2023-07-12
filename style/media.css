@@ -1,0 +1,48 @@
+/* Медиа запросы */
+
+@media(max-width:1000px) {
+    .main-clothes-item {
+        width: 50%;
+    }
+}
+
+@media(max-width:800px) {
+    .header-form {
+        display: none;
+    }
+    .header-content {
+        height: 500px;
+    }
+    .main-shoe-box {
+        justify-content: center;
+    }
+}
+
+@media(max-width:576px) {
+    .header-content > img {
+        width: 30%;
+    }
+    .header-content-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .header-content-text {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .header-nav {
+        flex-direction: column;
+        padding-top: 15px;
+    }
+    .footer {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .main-clothes-item {
+        width: 100%;
+    }
+    .title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
